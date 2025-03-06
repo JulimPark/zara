@@ -207,4 +207,4 @@ def main(page: ft.Page):
     # page.add(ft.SafeArea(ft.Text("Body!")))
 
 
-ft.app(main)
+ft.app(main, view=ft.AppView.WEB_BROWSER)
